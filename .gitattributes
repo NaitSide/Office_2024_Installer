@@ -1,2 +1,9 @@
-# Auto detect text files and perform LF normalization
+# Автоопределение текстовых файлов и нормализация переводов строк
 * text=auto
+
+# Windows bat-скрипты с UTF-8 без BOM (используют chcp 65001 для отображения кириллицы)
+*.bat text eol=crlf
+*.cmd text eol=crlf
+
+# PowerShell скрипты - UTF-8 с BOM (стандарт для PS)
+*.ps1 text eol=crlf working-tree-encoding=UTF-8
