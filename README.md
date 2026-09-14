@@ -12,7 +12,11 @@
 
    ![Выбор образа Office 2024](img/select_img_office.png)
 
-2. Нажмите правой кнопкой мыши по файлу `Office_2024_Installer.ps1` и выберите **«Выполнить с помощью PowerShell»**.
+2. На странице этого репозитория нажмите **Code → Download ZIP**, чтобы скачать установщик со всеми файлами.
+
+   ![Как скачать ZIP-архив с GitHub](img/download_zip_github.png)
+
+3. Распакуйте **весь** ZIP-архив. В распакованной папке нажмите правой кнопкой мыши по файлу `Office_2024_Installer.ps1` и выберите **«Выполнить с помощью PowerShell»**.
 
 Скрипт рассчитан на образ `ProPlus2024Retail` и использует [Office Deployment Tool (ODT)](https://www.microsoft.com/download/details.aspx?id=49117) — служебный установщик Microsoft для выбора приложений Office. Его файл `setup.exe` находится в папке `ODT` рядом со скриптом.
 
